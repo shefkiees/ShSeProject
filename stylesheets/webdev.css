@@ -1,0 +1,150 @@
+.shse-course-header {
+    text-align: center;
+    background: #ff66b2;;
+    color: white;
+    padding: 100px 0px;
+    margin-bottom: 50px;
+}
+
+.shse-course-header h1 {
+    font-size: 50px;
+}
+
+.shse-course-header p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* shse-course Info Section */
+.shse-course-info {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.shse-course-info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ff66b2;;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.shse-course-info .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shse-course-info .col-md-6 {
+    padding: 20px;
+}
+
+.shse-course-info .col-md-6 h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff66b2;
+}
+
+.shse-course-info .col-md-6 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* shse-course Images */
+.shse-course-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 25%;
+    flex-wrap: wrap;
+}
+
+.shse-course-images img {
+    max-width: 45%;
+    border-radius: 8px;
+    margin: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.shse-course-images img:hover {
+transform: scale(1.05); /* Scale the image on hover */
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for effect */
+}
+
+/* Call to Action */
+.cta-section {
+    background-color: #ff66b2;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+}
+
+.cta-section .cta-button {
+    background-color: #ffffff;
+    color: #ff66b2;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #e60073;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .shse-course-info .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shse-course-images img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+ /* .course-header {
+            text-align: center;
+            background: #ff66b2;
+            color: white;
+            padding: 100px 20px;
+            margin-bottom: 50px;
+        }
+
+        .course-header h1 {
+            font-size: 50px;
+            
+        }
+
+        .course-header p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        /* Course Info Section */
+        /* .course-info {
+            padding: 50px 20px;
+            background-color: white;
+        } */
+
+        /* .course-info h2 { */
+            /* font-size: 36px; */
+            /* font-weight: 700; */
+            /* color: #ff66b2; Blue color */
+            /* margin-bottom: 30px; */
+            /* text-align: center; */
+        /* } */
+
+        /* .course-info p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }  */

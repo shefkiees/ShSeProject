@@ -1,0 +1,97 @@
+.shse-course-video {
+    text-align: center;
+    margin: 50px 0;
+    width: 60%;
+}
+
+.shse-course-video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shse-section-section {
+    background-color: #ff66b2; 
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shse-section-section h2 {
+    font-size: 36px;
+}
+
+.shse-section-section .shse-section-button {
+    background-color: white;
+    color: #007bff; /* Blue color */
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.shse-section-section .shse-section-button:hover {
+    background-color: pink; /* Darker blue on hover */
+    color: white;
+}
+.shse-course-highlights {
+    background-color: white;
+    padding: 50px 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.shse-course-highlights h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.shse-course-highlights ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shse-course-highlights ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.shse-course-highlights ul li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #4caf50;
+    font-size: 18px;
+    font-weight: bold;
+}
+.shse-coursevideo{
+    display: flex;
+    justify-content: space-around;  
+    flex-direction: row;
+}
+
+
+/* Footer Styling */
+@media (max-width: 768px) {
+    .shse-course-video iframe {
+        width: 100%;
+        height: 280px;
+    }
+    .shse-coursevideo{
+    flex-wrap: wrap;          
+    }
+}

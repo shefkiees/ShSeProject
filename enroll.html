@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/school.jpg" type="image/x-icon">
+    <title>Enroll - Girl's University</title>
+    <link rel="stylesheet" href="stylesheets/enroll.css">
+    <script src="scripts/enroll.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+</head>
+<body id="girls-college">
+    <header>
+        <div class="shse-logo">Girls' College</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="enroll.html">Enroll</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shse-enroll-container">
+            <h1>Enroll Now</h1>
+            <p>Join us at Girl's University and take the first step toward your dream career! Fill out the form below to enroll in your desired course.</p>
+
+            <form action="#" class="shse-enroll-form">
+                <div class="shse-form-group shse-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="shse-item" placeholder="Enter your full name">
+                    <span class="shse-error-txt ">Please enter your name.</span>
+                </div>
+
+                <div class="shse-form-group shse-field">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="shse-item" placeholder="Enter your email">
+                    <span class="shse-error-txt ">Please enter a valid email.</span>
+                </div>
+
+                <div class="shse-form-group shse-field">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" class="shse-item" placeholder="Enter your phone number">
+                    <span class="shse-error-txt ">Please enter your phone number.</span>
+                </div>
+
+                <div class="shse-form-group shse-field">
+                    <label for="subject">Course</label>
+                    <input type="text" id="subject" class="shse-item" placeholder="Enter the course name">
+                    <span class="shse-error-txt ">Please enter the course name.</span>
+                </div>
+
+                <div class="shse-form-group shse-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Tell us why you're excited about this course"></textarea>
+                    <span class="shse-error-txt">Please enter your message.</span>
+                </div>
+
+                <button type="submit" class="shse-btn">Enroll Now</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Girls' College. All Rights Reserved.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
