@@ -58,3 +58,11 @@
 .shse-contact-form button:hover {
     background-color: #e53b72;
 }
+@media (min-width: 1440px) {
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
