@@ -168,3 +168,11 @@ footer a {
         font-size: 0.8rem;
     }
 }
+@media (min-width: 1440px) {
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
